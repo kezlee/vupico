@@ -15,8 +15,8 @@ const NavLinks = [
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-[#243887] header-area ">
-      <div className="container mx-auto flex items-center justify-between">
+    <nav className="bg-[--primary] header-area">
+      <div className="container flex items-center justify-between h-20">
         <div>
           <Image
             style={{
