@@ -12,7 +12,7 @@ const socialList = [
 
 const Footer = () => (
   <footer className="bg-[--primary] pt-[70px]">
-    <div className="container mx-auto">
+    <div className="container mx-auto px-6">
       <div className="flex justify-between flex-col lg:flex-row">
         <div className="">
           <Image src={Logo} alt="Logo" width={320} className="mb-8" />
