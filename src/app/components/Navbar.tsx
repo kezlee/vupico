@@ -16,7 +16,7 @@ const NavLinks = [
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-[--primary] header-area">
-      <div className="container flex items-center justify-between h-20">
+      <div className="container mx-auto flex items-center justify-between h-20">
         <div>
           <Image
             style={{
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
             priority
           />
         </div>
-        <ul className="flex text-white">
+        <ul className="lg:flex hidden text-white ">
           {NavLinks.map((link, index) => (
             <li key={index} className="px-5">
               <Link href={link.url}>{link.label}</Link>

@@ -5,8 +5,7 @@
 :root {
   --primary: #243887;
   --secondary: #25f8e8;
-  --cta-bg: var(--primary);
-  --cta-text: black;
+  --module-txt: #013242;
 }
 
 .header-area {
@@ -15,11 +14,6 @@
   left: 0;
   right: 0;
   box-shadow: 0 2px 28px 0 rgba(0,0,0,0.06);
-}
-
-.container {
-  width: 95%;
-  margin: 0 auto;
 }
 
 body {
