@@ -12,6 +12,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
   right: 0;
   box-shadow: 0 2px 28px 0 rgba(0,0,0,0.06);
 }
@@ -19,4 +20,9 @@
 body {
   color: white;
   font-size: 14px;
+  font-weight: 200;
+}
+
+a {
+  cursor: pointer;
 }
