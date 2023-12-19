@@ -19,6 +19,12 @@ import SolutionSuite3 from "../../../public/sdp/s3.png";
 import SolutionSuite4 from "../../../public/sdp/s4.png";
 import { faFacebook, faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
+export const NavLinks = [
+  { label: "Home", url: "/" },
+  { label: "SDP", url: "/sdp" },
+  { label: "Services", url: "/services" },
+];
+
 export const sdpModules = [
   {content: 'Extended Producer Responsibility', icon: faLineChart},
   {content: 'Life Cycle Assessment (LCA)', icon: faObjectUngroup},
