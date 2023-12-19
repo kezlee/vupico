@@ -26,12 +26,12 @@ export const NavLinks = [
 ];
 
 export const sdpModules = [
-  {content: 'Extended Producer Responsibility', icon: faLineChart},
-  {content: 'Life Cycle Assessment (LCA)', icon: faObjectUngroup},
-  {content: 'Carbon Management', icon: faNetworkWired },
-  {content: 'Supplier Data Protocol', icon: faClipboard},
-  {content: 'Environmental, Social and Governance', icon: faClone},
-  {content: 'Master Data Governance Sustainability(MDG-S)', icon: faClone},
+  {content: 'Extended Producer Responsibility', icon: faLineChart, url: '/sdp/sub-page'},
+  {content: 'Life Cycle Assessment (LCA)', icon: faObjectUngroup, url: '/sdp/sub-page'},
+  {content: 'Carbon Management', icon: faNetworkWired, url: '/sdp/sub-page' },
+  {content: 'Supplier Data Protocol', icon: faClipboard, url: '/sdp/sub-page'},
+  {content: 'Environmental, Social and Governance', icon: faClone, url: '/sdp/sub-page'},
+  {content: 'Master Data Governance Sustainability(MDG-S)', icon: faClone, url: '/sdp/sub-page'},
 ]
 
 export const socialList = [

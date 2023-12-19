@@ -43,7 +43,7 @@ const Home = () => {
       <section className="container mx-auto px-6 text-[--primary]">
         <ContentHeader title="SDP Modules" />
         <div className="grid grid-cols-1 gap-6 mb-8 md:grid-cols-3">
-          {sdpModules.map((module, index) => <SdpModule key={index} content={module.content} icon={module.icon} />)}
+          {sdpModules.map((module, index) => <SdpModule key={index} content={module.content} icon={module.icon} url={module.url} />)}
         </div>
       </section>
     </>
