@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={montserrat.className}>
         <Navbar />
-        <main className='mt-20 flex'>{children}</main>
+        <main className='mt-20 block'>{children}</main>
         <Footer />
       </body>
     </html>
