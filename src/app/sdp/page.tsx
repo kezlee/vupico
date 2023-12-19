@@ -14,15 +14,15 @@ const SDP = () => (
     <section className={`w-full bg-gradient-to-r from-[#131e49] to-[#3552c5]`}>
       <div className="container mx-auto px-6">
         <Image className='absolute top-0 left-0' src={Radial} alt='Radial Image' />
-        <div className='flex items-center justify-center h-[800px] lg:h-[886px]'>
-          <h1 className="text-[26px] lg:text-[40px] text-center lg:text-left font-medium">
+        <div className='flex items-center justify-center h-[800px] lg:h-[886px] flex-col lg:flex-row'>
+          <h1 className="text-[32px] lg:text-[40px] text-center lg:text-left font-medium">
             <span className="text-[--secondary]">S</span>ustainability{" "}
             <span className="text-[--secondary]">D</span>ata in One{" "}
             <span className="text-[--secondary]">P</span>latform
             <br />
-            <span className='mt-8 block'>Accelerate. Track. Innovate.</span>
+            <span className='mt-0 lg:mt-8 block mb-8 lg:mb-0'>Accelerate. Track. Innovate.</span>
           </h1>
-          <Image className='w-7/12' src={Laptop} alt='Laptop Image' />
+          <Image className='w-full md:w-10/12 lg:w-7/12' src={Laptop} alt='Laptop Image' />
         </div>    
       </div>
     </section>

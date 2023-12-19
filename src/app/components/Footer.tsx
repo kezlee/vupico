@@ -1,14 +1,8 @@
 import Image from "next/image";
 import Logo from "../../../public/logo.webp";
-import { faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
-
-const socialList = [
-  {icon: faTwitter},
-  {icon: faLinkedin},
-  {icon: faYoutube},
-]
+import Link from "next/link";
+import { socialList } from "../constant";
 
 const Footer = () => (
   <footer className="bg-[--primary] pt-[70px]">
@@ -17,7 +11,7 @@ const Footer = () => (
         <div className="">
           <Image src={Logo} alt="Logo" width={320} className="mb-8" />
           <ul className="text-white ml-4 hidden lg:flex">
-            {socialList.map((item, index) => <li key={index} className="mr-3"><a><FontAwesomeIcon icon={item.icon} /></a></li>)}
+            {socialList.map((item, index) => <li key={index} className="mr-3"><Link className='block w-[16px]' href={item.url}><FontAwesomeIcon height={16} icon={item.icon} /></Link></li>)}
           </ul>
         </div>
         <div className="text-[14px] pl-4">
@@ -26,7 +20,7 @@ const Footer = () => (
           <p>E-Mail: <a href="mailto:info@vupico.com">info@vupico.com</a></p>
 
           <ul className="text-white flex mt-8 lg:hidden">
-            {socialList.map((item, index) => <li key={index} className="mr-3"><a><FontAwesomeIcon icon={item.icon} /></a></li>)}
+            {socialList.map((item, index) => <li key={index} className="mr-3"><Link className='block w-[16px]' href={item.url}><FontAwesomeIcon height={16} icon={item.icon} /></Link></li>)}
           </ul>
         </div>
       </div>

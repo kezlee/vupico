@@ -17,7 +17,7 @@ import SolutionSuite1 from "../../../public/sdp/s1.png";
 import SolutionSuite2 from "../../../public/sdp/s2.png";
 import SolutionSuite3 from "../../../public/sdp/s3.png";
 import SolutionSuite4 from "../../../public/sdp/s4.png";
-import { faFacebook, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 export const sdpModules = [
   {content: 'Extended Producer Responsibility', icon: faLineChart},
@@ -26,6 +26,12 @@ export const sdpModules = [
   {content: 'Supplier Data Protocol', icon: faClipboard},
   {content: 'Environmental, Social and Governance', icon: faClone},
   {content: 'Master Data Governance Sustainability(MDG-S)', icon: faClone},
+]
+
+export const socialList = [
+  {icon: faTwitter, url: ''},
+  {icon: faLinkedin, url: ''},
+  {icon: faYoutube, url: ''},
 ]
 
 export const HomeBanners = [
